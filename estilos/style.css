@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@font-face {
-    font-family: 'Android';
-    src: url('../fontes/idroid.otf') format('opentype');
-    font-weight: normal;
-}
 
 :root {
     --cor0: #ebe5c5;
@@ -18,7 +13,6 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
 }
 
 * {
@@ -99,13 +93,13 @@ main {
 
 main h1 {
     color: var(--cor5);
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-padrao);
     font-weight: normal;
     font-size: 1.8em;
 }
 
 main h2 {
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-padrao);
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
