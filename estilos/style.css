@@ -166,9 +166,6 @@ aside > h3 {
 
 aside > ul {
     margin: 5px;
-    list-style-type: disc;
-    list-style-position: inside;
-    columns: 2;
 }
 
 aside > ul > li{
