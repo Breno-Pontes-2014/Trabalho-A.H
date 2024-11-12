@@ -115,7 +115,7 @@ main aside > h3{
 
 main p {
     margin: 15px;
-    text-align: right;
+    text-align: left;
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
