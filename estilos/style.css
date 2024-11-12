@@ -99,6 +99,7 @@ main h1 {
 }
 
 main h2 {
+    padding:10px;
     font-family: var(--fonte-padrao);
     color: var(--cor4);
     font-size: 1.3em;
@@ -107,9 +108,14 @@ main h2 {
     text-indent: 8px;
 }
 
+main aside > h3{
+    font-weight:bolder;
+    margin: 20px;
+}
+
 main p {
-    margin: 15px 0px;
-    text-align: justify;
+    margin: 15px;
+    text-align: right;
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
