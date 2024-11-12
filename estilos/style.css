@@ -159,9 +159,16 @@ aside > h3 {
 }
 
 aside > ul {
+    margin: 5px;
     list-style-type: disc;
     list-style-position: inside;
     columns: 2;
+}
+
+aside > ul > li{
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    margin: 5px;
 }
 
 footer {
